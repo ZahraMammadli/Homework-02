@@ -19,6 +19,7 @@ You can find screenshot of the page in the assets/images folder, follow link bel
 
 
 ## PageLink
-GitLink: 
+GitLink: https://zahramammadli.github.io/Homework-02/
+GitHub: https://github.com/ZahraMammadli/Homework-02/
 
 
