@@ -102,6 +102,20 @@ nav a {
   height: var(--aboutmeheigh);
 }
 
+.fullstack {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 35%;
+  height: var(--workheigh);
+  margin-bottom: 20px;
+  opacity: 0.8;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ 
+
 .info {
   display: flex;
   flex-wrap: wrap;

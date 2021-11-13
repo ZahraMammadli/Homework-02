@@ -1,16 +1,49 @@
+html {
+  background: linear-gradient(to bottom right, #a4c5c7, #2d3f48);
+}
 body {
   margin: 0;
   font: 16px/1.3 sans-serif;
-  background: linear-gradient(to bottom right, #a4c5c7, #2d3f48);
 }
 
 header {
   padding: 0.5rem;
-  box-sizing: border-box;
   color: white;
+  text-align: center;
+  font-family: "graphik";
+}
+
+/* Projects description part */
+.projects {
+  color: white;
+  margin-left: 10%;
+  font-family: "graphik";
+  overflow: hidden;
+}
+.project1 {
+  float: left;
+  text-align: center;
+}
+.project2 {
+  overflow: hidden;
   text-align: center;
 }
 
+/* Responsiveness of projects */
+@media screen and (max-width: 550px) {
+  .project1 {
+    float: none;
+    margin-right: 0;
+    width: auto;
+    border: 0;
+  }
+}
+
+a {
+  display: block;
+}
+
+/* Slides part */
 .CSSgal {
   position: relative;
   overflow: hidden;
@@ -24,7 +57,7 @@ header {
   white-space: nowrap;
   font-size: 0;
   transition: 0.8s;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 /* SLIDES */
