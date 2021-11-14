@@ -71,45 +71,9 @@ nav a {
   flex: auto;
   text-align: center;
   color: grey;
-  margin: 0 5px;
-  padding: 5px 0;
+  margin: 5px;
+  padding: 5px;
   text-decoration: none;
-}
-
-/* This is main part */
-
-.portfolio {
-  display: flex;
-  float: left;
-  flex: 1 1 80%;
-  flex-wrap: wrap;
-  position: relative;
-  margin-right: 20px;
-}
-
-.aboutmeinfo p {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  flex-wrap: wrap;
-  position: relative;
-  font-style: italic;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-size: 22px;
-  height: var(--aboutmeheigh);
-}
-
-.fullstack {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 35%;
-  height: var(--workheigh);
-  margin-bottom: 20px;
-  opacity: 0.8;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 h3 {
@@ -124,19 +88,19 @@ h3 {
   flex: 1 1 35%;
   flex-wrap: wrap;
   position: relative;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 140px;
+  /* margin-bottom: 0px; */
 }
 
 .card {
-  margin: 5px;
+  margin: 8px;
   padding: 1vh;
   position: relative;
   display: flex;
   flex: 1 1 20%;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 /* This is contacts part */
@@ -160,16 +124,6 @@ a[href^="Github"]::before {
   content: "Github ";
 }
 
-.about-me {
-  display: flex;
-  flex-direction: row;
-  border-left: 3px solid #a4c5c7;
-  font-size: 1.5em;
-  text-align: center;
-  height: var(--aboutmeheigh);
-  width: auto;
-}
-
 .contact-me {
   display: flex;
   flex-direction: row;
@@ -191,13 +145,6 @@ h6 {
 @media (max-width: 480px) {
   nav {
     flex-direction: column;
-    margin: auto;
-  }
-  .aboutmeinfo {
-    flex-direction: column;
-  }
-  .aboutmeinfo p {
-    font-size: 14px;
     margin: auto;
   }
 }
@@ -224,7 +171,7 @@ h6 {
   perspective: 1000px;
   width: 70%;
   height: 70%;
-  margin-top: 23%;
+  margin-top: 14%;
   margin-left: 15%;
 }
 body:hover > label,

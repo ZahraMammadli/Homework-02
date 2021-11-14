@@ -52,7 +52,7 @@ main {
 }
 
 img {
-  width: 50%;
+  width: 40%;
   float: left;
   filter: blur(2px);
   -webkit-filter: blur(2px);
