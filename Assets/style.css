@@ -9,7 +9,11 @@
   --workheigh: 500px;
   --hovercolor: #c9e4de;
 }
-
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
 body {
   display: flex;
   justify-content: center;
@@ -18,6 +22,11 @@ body {
   text-align: center;
   perspective: 1000px;
   background: linear-gradient(to bottom right, #a4c5c7, #2d3f48);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 75rem;
+  margin: auto;
 }
 body:hover > label,
 body:hover > input {
@@ -30,14 +39,6 @@ body:hover > input {
   margin: 0;
   font-family: var(--fontf);
   color: var(--headercolor);
-}
-
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  max-width: 75rem;
-  margin: auto;
 }
 
 main {
@@ -123,7 +124,8 @@ h3 {
   flex: 1 1 35%;
   flex-wrap: wrap;
   position: relative;
-  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .card {
@@ -134,10 +136,7 @@ h3 {
   flex: 1 1 20%;
   flex-direction: column;
   align-items: center;
-}
-
-.card :hover {
-  background-color: var(--hovercolor);
+  margin-bottom: 50px;
 }
 
 /* This is contacts part */
@@ -167,30 +166,7 @@ a[href^="Github"]::before {
   border-left: 3px solid #a4c5c7;
   font-size: 1.5em;
   text-align: center;
-  margin-bottom: 35px;
   height: var(--aboutmeheigh);
-  width: auto;
-}
-
-.my-work {
-  display: flex;
-  flex-direction: row;
-  border-left: 3px solid #a4c5c7;
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 25px;
-  height: var(--workheigh);
-  width: auto;
-}
-
-.project-list {
-  display: flex;
-  flex-direction: row;
-  border-left: 3px solid #a4c5c7;
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 20px;
-  height: 217px;
   width: auto;
 }
 
@@ -202,16 +178,6 @@ a[href^="Github"]::before {
   text-align: center;
   height: 100px;
   width: auto;
-}
-
-/* This is styling of the Footer of the website*/
-
-.footer {
-  padding: 30px;
-  clear: both;
-  font-family: var(--fontf);
-  text-align: center;
-  color: var(--headercolor);
 }
 
 h6 {
@@ -258,7 +224,7 @@ h6 {
   perspective: 1000px;
   width: 70%;
   height: 70%;
-  margin-top: 10%;
+  margin-top: 23%;
   margin-left: 15%;
 }
 body:hover > label,
