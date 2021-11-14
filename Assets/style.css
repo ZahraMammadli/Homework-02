@@ -9,11 +9,6 @@
   --workheigh: 500px;
   --hovercolor: #c9e4de;
 }
-html,
-body {
-  margin: 0;
-  height: 100%;
-}
 body {
   display: flex;
   justify-content: center;
