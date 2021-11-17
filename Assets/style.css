@@ -9,6 +9,12 @@
   --workheigh: 500px;
   --hovercolor: #c9e4de;
 }
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
 body {
   display: flex;
   justify-content: center;
@@ -23,6 +29,7 @@ body {
   max-width: 75rem;
   margin: auto;
 }
+
 body:hover > label,
 body:hover > input {
   opacity: 1;
@@ -83,7 +90,7 @@ h3 {
   flex: 1 1 35%;
   flex-wrap: wrap;
   position: relative;
-  margin-top: 140px;
+  margin-top: 250px;
   /* margin-bottom: 0px; */
 }
 
@@ -166,7 +173,7 @@ h6 {
   perspective: 1000px;
   width: 70%;
   height: 70%;
-  margin-top: 14%;
+  margin-top: 20%;
   margin-left: 15%;
 }
 body:hover > label,
