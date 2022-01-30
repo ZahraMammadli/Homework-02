@@ -1,25 +1,20 @@
-# <Zahra Mammadli Portolio page>
+# Zahra Mammadli's Portfolio
 
-## Description
-This project is to provide a sample webpage that can be utilized for building personal portfolio. Consisdering high demand in IT industry and as well as a lot of talended programmers people in the area, visibility is vert important. Not all of the hiring managers can understand programmers skills and thus having an excelling website will be very beneficial. 
+<br>
+View portfolio live link here: https://zahramammadli.github.io/Portfolio/
 
+## Introduction
 
+This is my personal portfolio page, which will be updated as more apps are created. This portfolio page will display my projects and skills as a web developer to potential employers.
 
-## Usage
+## Technologies
 
-For utilisation purposes please change information provided and include your personal data, thus please amend the about me paragraph and write down your personal information.
-Please include links to your portfolio. Mind the programming language used in your projects. For example link all your java related developments to "Java" logo page. 
-Do not forget to amend contacts section and include your personal contact and github link.
+Technologies used in this portfolio creation include:
 
-You can find screenshot of the page in the assets/images folder, follow link below:
+- HTML
+- CSS
+- JavaScript
 
-   ``
-    ![ScreenCapture of the webpage](assets/images/screencaptureWebPage.png)
-    ``
+## License
 
-
-## PageLink
-GitLink: https://zahramammadli.github.io/Homework-02/
-GitHub: https://github.com/ZahraMammadli/Homework-02/
-
-
+Copyright (c) 2022-Present Zahra Mammadli. All rights reserved.

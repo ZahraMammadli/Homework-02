@@ -1,101 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/style.css">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="device-width, initial-scale=1.0" />
+    <title>Zahra Mammadli Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <!-- This is a header section with nav bar to navigate through other sections of the page -->
-        <header>
-        <h1>Zahra Mammadli Portfolio Page</h1>
-        </header>
+    <header class="navbar">
         <nav>
-            <a href=#Aboutme>About Me</a>
-            <a href=#FullStack>Skills</a>
-            <a href=#MyProjects>Projects</a>
-            <a href=#Contacts > ContactMe</a>
+            <a class="nav-links" href="#about-me">About Me</a>            
+            <a class="nav-links" href="#projects">My Projects</a>
+            <a class="nav-links" href="#contact">Contact Me</a>
+            <a class="nav-links" href="./assets/resources/Resume-Zahra-Mammadli (2).pdf" target="_blank">Resume</a>
         </nav>
+    </div>
+    </header>
 
-<!-- This is main section with artcile, portfolio and skill set -->
-        <main>
-        <article>
-            <div class="Portfolio">    
-                <section>
-                    <div id="AboutMe" class="aboutmeinfo">
-                        <p>
-                            Full Stack Developer with over 10 years of experience in Java/JS, Angular,
-                            Vue, React, Python, NumPy, SciPy, Scikit-learn. Led development of $500K 
-                            research project which was deemed a "gold standard" by the client. 
-                            Increased client's revenue 2-fold after fine-tuning AI/ML-based algorithms. 
-                            Well-aqcuainted with HR methodologies.
-                        </p>
+    <main>
+        <div class="personal-id-card">
+            <div class="id-card">
+                <div class="profile-row">
+                    <div class="profilepic">
+                        <div class="pp-arc-outer"></div>
+                        <div class="pp-arc-inner"></div>
+                        <img src="./assets/images/formal-picture.jpeg">
                     </div>
-                </section>
-                <section>
-                    <div id = "FullStack" class="fullstack">     
-                        <div class="info">
-                            <h3>Full Stack Developer</h3>
-                            <p>See my skills</p>
-                        </div>
+                    <div class="profiledesc">
+                        <h1>Zahra Mammadli</h1>
+                        <p class="typewriter-effect">Full Stack</p> 
+                        <a href="mailto:zahra.mrj@gmail.com" target="_blank" class="id-card-links">EMAIL</a>
+                        <a href="https://github.com/ZahraMammadli" target="_blank" class="id-card-links">GITHUB</a>
+                        <a href="https://www.linkedin.com/in/zahramammadli/" target="_blank" class="id-card-links">LINKEDIN</a>
                     </div>
-                </section>
-                <section>
-                    <div id="MyProjects" class="cards">
-                        <div class="card">
-                            <img src="Assets/images/JavaScript.png" alt="Java Script">
-                        </div>
-                        <div class="card">
-                            <img src="Assets/images/NodeJs.png" alt="NodeJS">
-                        </div>
-                        <div class="card">
-                            <img src="Assets/images/html.png" alt="HTML">
-                        </div>
-                        <div class="card">
-                            <img src="Assets/images/Python.png" alt="Python">
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div id="Contacts" class="ContactInfo">     
-                        <address>
-                            <a href="mailto:bootcamp@gmail.com">bootcamp@gmail.com</a><br>
-                            <a href="tel:+13115552368">(311) 555-2368</a><br>
-                            <a href="https://github.com/ZahraMammadli/">Github</a><br>
-                            <a href="https://www.linkedin.com/in/zahramammadli/">Linkedin</a>
-                          </address>
-                        </div>
-                    </div>
-                </section>
+                </div>
             </div>
-        </article>
+        </div>
 
+        <section class="main-body">
 
-<!-- This is aside part of the webpage -->
-        <aside>
-            <div> 
-                <div class="about-me"> About Me</div>
-                <div class="my-work"> My Skills</div>
-                <div class="project-list"> Projects</div>
-                <div class="contact-me"> Contact Me</div>
-                </div>   
-            </div> 
-        </aside>
-        </main>
+            <div class="main-container">
+                <div id="about-me">
+                    <aside>
+                        <h2>About Me</h2>
+                    </aside>
+                </div>
+                <div class="main-paragraph">
+                    <p>
+                        I am deeply impressed when I see smart and beautiful code that does something I know is hard
+                        to accomplish. These are moments when I feel that we have only touched the surface of what we
+                         can do with computers, and I know that there is a simple solution to the current programming problem 
+                         I am facing; I just need to get my head around it. 
+                    </p>
+                </div>
+            </div>
 
+            <div class="main-container" id="projects">
+                <div class="container-header">
+                    <h2>My <span class="underline">Projects</span></h2>
+                </div>
 
-    </body>
-        <!---This is Footer of the website-->      
-        <div class="footer">
-            <footer>
-            <h6>Made for ESMT Bootcamp</h6>
-            <p>&copy; 2021 Zahra Mammadli</p>
-            </footer>
-        </div>   
+                <!-- FEATURED PROJECT 1 -->
+                <div class="project-card">
+                        <div class="app-main">
+                            <div>
+                                <h6 class="featured">FEATURED</h6>
+                            </div>
+                            <h2 class="app-header">Universal Directory <a class="github-link" href="https://github.com/alexanderpuschkinberlin/universal-directory" target="_blank"><i class="fab fa-github"></i></a></h2>
+                                <a class="img-colorize" href="https://obscure-thicket-70245.herokuapp.com/" target="_blank">
+                                    <img src="assets/images/universal_directory_readme.png" class="app-image featured-image img-colorize" alt="Universal-Directory" />
+                                </a>
+                        </div>
+                        <div class="app-info">
+                            <p class="app-description">A web application that allows users to look for security experts and order service. This application allows to experts to register on the website, create their profile and track orders and update its status. This is universal directory and can be utilised for any kind of B2B2C services. </p>
+                            <div class="language-list">
+                                <p class="language">HTML</p>
+                                <p class="language">CSS</p>
+                                <p class="language">JavaScript</p>
+                                <p class="language">Handlebars</p>
+                                <p class="language">Node JS</p>
+                                <p class="language">Sequelize</p>
+                            </div>
+                        </div>
+                </div>
+                <!-- FEATURED PROJECT 2 -->
+                <div class="project-card">
+                    <div class="app-main">
+                        <div>
+                            <h6 class="featured">FEATURED</h6>
+                        </div>
+                        <h2 class="app-header"> The Boaring App<a class="github-link" href="https://github.com/ZahraMammadli/TheBoringApp" target="_blank"><i class="fab fa-github"></i></a></h2>
+                            <a class="img-colorize" href="https://zahramammadli.github.io/TheBoringApp/index.html" target="_blank">
+                                <img src="assets/images/boarding-app.png" class="app-image featured-image" alt="Image of Marvel Superhero Locator web app" />
+                            </a>
+                    </div>
+                    <div class="app-info">
+                        <p class="app-description">In order to prevent and control boredom during working breaks, we - Niko de Silva, Zahra Mammadli, Nabil Nasser and Olivier R.Measson - have been working on developing an interactive front-end application that has for purpose to "cure" your boredom. The application permits for a user to "make a choice" between watching random videos using the youtube API or to learn something using the bored API.</p>
+                        <div class="language-list">
+                            <p class="language">HTML</p>
+                            <p class="language">CSS</p>
+                            <p class="language">JavaScript</p>
+                            <p class="language">jQuery</p>
+                            <p class="language">Local Storage</p>  
+                            <p class="language">Materialize</p>  
+                            <p class="language">API</p>  
+                            <p class="language">D3 stats</p>  
+                        </div>
+                    </div>
+                </div>
 
+                <!-- OTHER NOTABLE PROJECTS -->
+                <div class="other-projects underline">
+                    <h3>Other Notable Projects</h3>
+                </div>
+                <div class="projects-list">
+                    <!-- TECH BLOG -->
+                    <div class="project-solo">
+                        <div class="small-header">
+                            <h4>Tech Blog <a class="github-link" href="https://github.com/ZahraMammadli/tech-blog/tree/dev" target="_blank"><i class="fab fa-github"></i></a></h4>
+                            <div class="app-image img-colorize">
+                                <a href="https://boiling-plateau-09535.herokuapp.com/" target="_blank">
+                                    <img src="assets/images/tech-blog.png" alt="Tech Blog App Image" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="small-desc">
+                            <p>
+                                A CMS-style blog site where developers can publish their blog posts and comments. Users are required to create an account before creating posts and comments.
+                            </p>
+                            <p class="language">HTML</p>
+                            <p class="language">CSS</p>
+                            <p class="language">JavaScript</p>
+                            <p class="language">Handlebars</p>
+                        </div>
+                    </div>
+                    <!-- NOTE TAKER -->
+                    <div class="project-solo">
+                        <div class="small-header">
+                            <h4>Note Taker <a class="github-link" href="https://github.com/ZahraMammadli/NoteTaker" target="_blank"><i class="fab fa-github"></i></a></h4>
+                            <div class="app-image img-colorize">
+                                <a href="https://safe-falls-80948.herokuapp.com/" target="_blank">
+                                    <img src="assets/images/note-taker.png" alt="Note Taker App Image" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="small-desc">
+                            <p>
+                                Note Taker is an application that can be used to write and save notes. This application will use an Express.js back-end and will save and retrieve note data from a JSON file.                            </p>
+                            <p class="language">HTML</p>
+                            <p class="language">CSS</p>
+                            <p class="language">JavaScript</p>
+                            <p class="language">Handlebars</p>
+                        </div>
+                    </div>
+                    <!-- WEATHER DASHBOARD -->
+                    <div class="project-solo">
+                        <div class="small-header">
+                            <h4>Weather App <a class="github-link" href="https://github.com/ZahraMammadli/WeatherApp" target="_blank"><i class="fab fa-github"></i></a></h4>
+                            <div class="app-image img-colorize">
+                                <a href="https://zahramammadli.github.io/WeatherApp/" target="_blank">
+                                    <img src="assets/images/weatherforecastapp.png" alt="Weather App Image" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="small-desc">
+                            <p>
+                                This is a weather dashboard that fetches data from a third-party API (OpenWeather) that will run in the browser and feature dynamically updated HTML and CSS.</p>
+                            <p class="language">HTML</p>
+                            <p class="language">CSS</p>
+                            <p class="language">JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <div id="contact" class="footer">
+        <h2>LET'S CONNECT!</h2>
+        <p>Keen on working together? Want to check out more of my work? Feel free to check out my GitHub!</p>
+        <a href="https://github.com/ZahraMammadli" target="_blank" class="contactBtn">G I T H U B</a>
+        <p>Have any questions? Feel free to send an email, and I will respond as soon as I can.</p>
+        <a href="mailto:zahra.mrj@gmail.com" target="_blank" class="contactBtn">E M A I L</a>
+        <div class="credits">
+            <p>Zahra Mammadli Copyright (c) 2022-Present. All rights reserved. </p>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
